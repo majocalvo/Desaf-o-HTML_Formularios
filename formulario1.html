@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarea HTML_Formularios de María José Calvo</title>
-    
-</head>
-<body>
-    <form>
-       <label> <input type="radio" name="idioma" value="idiomaingles" id=""> <strong>Inglés </strong></label>
-       <label><input type="radio" name="idioma" value="idiomaalemán" id=""> <strong>Alemán  </strong></label>
-       <label> <input type="radio" name="idioma" value="idiomafrance" id=""> <strong>Francés </strong> </label>
-<br>
-<br>
 
-       <select name="Conector" >
+</head>
+
+<body>
+
+    <h1><strong><span style="color: blueviolet">"Tarea HTML_Formularios de María José Calvo" </span></strong></h1>
+    <br>
+    <br>
+    <br>
+    <legend><strong>Escoja idioma </strong></legend>
+    <label> <input type="radio" name="idioma" value="idiomaingles" id=""> Inglés </label>
+    <label> <input type="radio" name="idioma" value="idiomaalemán" id=""> Alemán </label>
+    <label> <input type="radio" name="idioma" value="idiomafrance" id=""> Francés </label>
+    <br>
+    <br>
+    Escoja opción
+    <br>
+    <select name="Conector">
         <option value="usb"> USB </option>
         <option value="paralelo"> Paralelo </option>
         <option value="ps2"> Ps2</option>
-       </select>
-       <br>
-       <br>
+    </select>
+    <br>
+    <br>
+    Ingrese información
+    <br>
     <input type="text" name="nombre" id="" placeholder="Nombre">
     <br>
     <input type="text" name="apellidos" id="" placeholder="Apellidos">
     <br>
-<br>
+    <br>
 
-    <select name="sexo" id="" multiple size="3">
+    <select name="sexo" id="" multiple size="2">
         <option value="hombre"> Hombre</option>
         <option value="mujer"> Mujer</option>
     </select>
 
-    <label><input type="checkbox" name="sexo" value="sexomujer"vid=""> Mujer </label>
-    <label><input type="checkbox" name="sexo" value="sexohombre"vid=""> Hombre </label>
+    <label><input type="checkbox" name="sexo" value="sexomujer" id=""> Mujer </label>
+    <label><input type="checkbox" name="sexo" value="sexohombre" id=""> Hombre </label>
     <br>
     <br>
 
@@ -42,6 +52,7 @@
     Ingrese fecha <input type="date">
 
     </form>
-    
+
 </body>
+
 </html>
